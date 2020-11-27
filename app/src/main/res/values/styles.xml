@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="actionOverflowMenuStyle">@style/OverFlowMenu</item>
+    </style>
+
+    <style name="OverFlowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">@dimen/vertical_dropdown_offset</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+    </style>
+
+<!--    <style name="SwitchCheckBox" parent="Widget.AppCompat.CompoundButton.Switch">-->
+<!--        <item name="colorControlActivated">@color/white</item>-->
+<!--    </style>-->
+
+</resources>

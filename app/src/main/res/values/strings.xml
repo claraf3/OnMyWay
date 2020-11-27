@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">OnMyWay</string>
+
+    <!--    General use-->
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="deny">Deny</string>
+    <string name="icon">Icon</string>
+
+
+    <!--    sign in / sign up-->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="user_not_found">User not found. Please ensure the correct email is entered, or create a new account.</string>
+    <string name="password_incorrect">Password incorrect. Please try again.</string>
+    <string name="email">Email</string>
+    <string name="email_invalid">Please enter a valid email address</string>
+    <string name="email_taken">There is already an account under this email</string>
+    <string name="password">Password</string>
+    <string name="password_invalid_signin">Please enter your password</string>
+    <string name="password_invalid_signup">Please enter the password twice</string>
+    <string name="password_too_short">The password should be at least 6 characters</string>
+    <string name="password_mismatch">Passwords do not match</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="username">Username (Case Sensitive)</string>
+    <string name="username_invalid">Invalid Username. Username must only contain letters or numbers.</string>
+    <string name="username_taken">Username has been taken</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="name_invalid">Please enter your name</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    friend function-->
+    <string name="friends">Friends</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="friend_requests">Friend Requests</string>
+    <string name="no_requests">No requests at this time</string>
+    <string name="enter_username">Enter username of friend</string>
+    <string name="username_not_found">Username not found</string>
+    <string name="friend_exists">Username is already added to your friend list</string>
+    <string name="add_friend_feedback">An add friend request has been sent to</string>
+    <string name="deny_success">You have denied the friend request</string>
+    <string name="deny_fail">Failed to deny friend request. Please try again</string>
+    <string name="add_success">New friend added</string>
+    <string name="add_fail">Failed to accept friend request. Please try again</string>
+    <string name="allow_error">You are currently sharing location. Please turn off share before adjusting allow status</string>
+    <string name="no_friends">You do not have any friends yet</string>
+    <string name="chat">Chat</string>
+    <string name="send">Send</string>
+    <string name="message">Message</string>
+
+
+    <!--    Location-->
+    <string name="share_location">Share Location</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="allow">Allow</string>
+    <string name="not_online">Your friend is currently not sharing location</string>
+    <string name="sharing_turned_off">Your friend has turned off location sharing</string>
+    <string name="not_online_title">Cannot get location</string>
+    <string name="sharing_loc">You are now sharing your location</string>
+    <string name="stop_sharing_loc">You have stopped sharing your location</string>
+    <string name="see_observers">See Observers</string>
+    <string name="observing">Observing %1$s</string>
+    <string name="observers">Observers</string>
+    <string name="no_observers">No one is stalking you at the moment</string>
+
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/row_background">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/icon"
+            app:srcCompat="@drawable/request_icon" />
+
+        <TextView
+            android:id="@+id/requestUsernameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imageView"
+            android:textSize="@dimen/row_font_size" />
+
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:layout_toLeftOf="@id/btnDeny"
+            android:background="@android:color/transparent"
+            android:minWidth="0dp"
+            android:text="@string/accept"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDeny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:minWidth="0dp"
+            android:textColor="?attr/colorControlNormal"
+            android:text="@string/deny" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+<!--<LinearLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:descendantFocusability="blocksDescendants"-->
+<!--    android:orientation="horizontal">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/requestUsernameView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        tools:layout_editor_absoluteX="68dp"-->
+<!--        tools:layout_editor_absoluteY="30dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnAccept"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/accept"-->
+<!--        tools:layout_editor_absoluteX="161dp"-->
+<!--        tools:layout_editor_absoluteY="16dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnDeny"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="deny"-->
+<!--        tools:layout_editor_absoluteX="249dp"-->
+<!--        tools:layout_editor_absoluteY="16dp" />-->
+<!--</LinearLayout>-->
